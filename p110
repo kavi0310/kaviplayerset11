@@ -20,11 +20,9 @@ int main() {
            }
        }
        c[m]=a[i];
-       //printf("%d ",c[m]);
        m++;
        m1++;
    }
-   //printf("\n");
    for(k=n-1;k>=0;k--)
    {
         for(l=k-1;l>=0;l--)
@@ -32,11 +30,9 @@ int main() {
          b[k]=b[k]+b[l];
         }
         d[p]=a[k];
-        //printf("%d ",d[p]);
         p++;
         p1++;
    }
-   //printf("\n");
    for(m=0;m<m1;m++)
    {
        for(p=m;p<=p;p++)
